@@ -29,7 +29,7 @@ export const GOOGLE_SCRIPT_URL = 'PASTE_YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE
 export const SITE = {
   companyName: 'IndiaDiarie',
   shortName: 'ID', // ← 2–3 letter monogram shown in the logo badge
-  tagline: 'Crafted in Kolkata. Written Around the World.',
+  tagline: 'Crafted in India. Written Around the World.',
   founder: 'Sheikh Mohammed Ibrahim',
   foundedYear: '1985',
   phoneDisplay: '+91 99038 16866',

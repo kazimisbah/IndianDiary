@@ -21,7 +21,7 @@ function HeroDiary() {
                 Our promise
               </span>
               <p className="mt-2 font-serif text-[clamp(.95rem,1.9vw,1.45rem)] leading-snug italic">
-                Crafted in Kolkata.
+                Crafted in India.
                 <br />
                 Written Around the World.
               </p>
@@ -88,7 +88,7 @@ export default function Hero() {
         <div className="order-2 text-center lg:order-1 lg:text-left">
           <p className="eyebrow !text-gold-300 justify-center lg:justify-start">Premium Diary Manufacturer · Since {SITE.foundedYear}</p>
           <h1 className="mt-5 font-serif text-[2.6rem] leading-[1.05] font-semibold text-balance sm:text-6xl lg:text-7xl">
-            Crafted in Kolkata.{' '}
+            Crafted in India.{' '}
             <span className="block italic text-gold-300">Written Around the World.</span>
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-cream-200/85 sm:text-lg lg:mx-0">
