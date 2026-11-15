@@ -66,7 +66,7 @@ export const HERO_VIDEO_POSTER = img('1516414447565-b14be0adf13e', 1600)
  * ---------------------------------------------------------------------------*/
 export const STATS = [
   { value: new Date().getFullYear() - 1985, suffix: '+', label: 'Years of craftsmanship' }, // counts automatically from 1985
-  { value: 1000000, suffix: '+', label: 'Diaries produced' }, // [PLACEHOLDER]
+  { value: 10, suffix: 'M+', label: 'Diaries produced' }, // [PLACEHOLDER]
   { value: 850, suffix: '+', label: 'Clients served' }, // [PLACEHOLDER]
   { value: 12, suffix: '+', label: 'Countries shipped to' }, // [PLACEHOLDER]
 ]
