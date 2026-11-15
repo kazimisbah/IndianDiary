@@ -2,11 +2,87 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>indiandiary</title>
+
+    <!-- =====================================================================
+         SEO — replace the domain (https://www.example.com) with your real website address.
+         ===================================================================== -->
+    <title>IndiaDiarie | Custom Diary Manufacturer & Exporter in Kolkata, India</title>
+    <meta name="description" content="Premium custom diary manufacturer in Kolkata, India. Corporate, leather, gifting, eco-friendly and academic diaries, with private label notebooks and bulk export to the USA, UK, UAE, Europe and Asia." />
+    <meta name="keywords" content="custom diary manufacturer India, corporate diary exporter Kolkata, private label notebooks India, diary manufacturer Kolkata, leather diary manufacturer, bulk notebooks exporter, corporate gifting diaries, OEM journals India, school diary printing Kolkata" />
+    <meta name="author" content="IndiaDiarie" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#1b2a41" />
+    <link rel="canonical" href="https://www.example.com/" />
+
+    <!-- Open Graph / social sharing -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="IndiaDiarie" />
+    <meta property="og:title" content="IndiaDiarie | Crafted in Kolkata. Written Around the World." />
+    <meta property="og:description" content="Premium, fully customizable diaries for business, gifting and everyday life, made in Kolkata and shipped worldwide." />
+    <meta property="og:url" content="https://www.example.com/" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1516414447565-b14be0adf13e?auto=format&fit=crop&w=1200&h=630&q=75" />
+    <meta property="og:locale" content="en_IN" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="IndiaDiarie | Custom Diary Manufacturer, Kolkata" />
+    <meta name="twitter:description" content="Corporate, gifting and private-label diaries, crafted in Kolkata and exported worldwide." />
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1516414447565-b14be0adf13e?auto=format&fit=crop&w=1200&h=630&q=75" />
+
+    <!-- Favicon (inline so the site stays a single file) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%231b2a41'/%3E%3Cpath d='M10 13.5c3.4-1.2 6.8-.9 10 1.2 3.2-2.1 6.6-2.4 10-1.2v13c-3.4-1.2-6.8-.9-10 1.2-3.2-2.1-6.6-2.4-10-1.2z' fill='%23f8f3e8'/%3E%3Cpath d='M20 14.7v13' stroke='%23b08d57' stroke-width='1.4'/%3E%3C/svg%3E" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400&family=Playfair+Display:ital,wght@0,500..800;1,500..700&display=swap" rel="stylesheet" />
+
+    <!-- Apply saved / system dark mode before paint (avoids a flash) -->
+    <script>
+      try {
+        var t = localStorage.getItem('theme')
+        if (t === 'dark' || (!t && matchMedia('(prefers-color-scheme: dark)').matches)) document.documentElement.classList.add('dark')
+      } catch (e) {}
+    </script>
+
+    <!-- Structured data (schema.org) — update the placeholders -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": ["Organization", "LocalBusiness", "Manufacturer"],
+        "name": "IndiaDiarie",
+        "foundingDate": "1985",
+        "url": "https://www.example.com/",
+        "logo": "https://www.example.com/logo.png",
+        "image": "https://images.unsplash.com/photo-1516414447565-b14be0adf13e?auto=format&fit=crop&w=1200&q=75",
+        "description": "Manufacturer and exporter of premium custom diaries, journals, planners and notebooks: corporate, gifting, academic and private label.",
+        "founder": { "@type": "Person", "name": "Sheikh Mohammed Ibrahim" },
+        "telephone": "+91-93806-16278",
+        "email": "hello@indiadiarie.com",
+        "priceRange": "₹₹",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Collins Street",
+          "addressLocality": "Kolkata",
+          "addressRegion": "West Bengal",
+          "postalCode": "[700016]",
+          "addressCountry": "IN"
+        },
+        "areaServed": ["IN", "US", "GB", "AE", "SA", "QA", "DE", "FR", "ES", "NL", "SG", "MY"],
+        "knowsAbout": ["Custom diaries", "Corporate diaries", "Leather diaries", "Private label notebooks", "Planners", "Journals", "Eco-friendly diaries"],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-93806-16278",
+          "contactType": "sales",
+          "availableLanguage": ["English", "Hindi", "Bengali", "Urdu"]
+        },
+        "sameAs": []
+      }
+    </script>
   </head>
   <body>
+    <noscript>
+      <p style="padding:2rem;font-family:sans-serif">Please enable JavaScript to view this website, or call us on +91 93806 16278.</p>
+    </noscript>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
