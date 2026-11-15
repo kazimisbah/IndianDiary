@@ -32,9 +32,9 @@ export const SITE = {
   tagline: 'Crafted in Kolkata. Written Around the World.',
   founder: 'Sheikh Mohammed Ibrahim',
   foundedYear: '1985',
-  phoneDisplay: '+91 93806 16278',
-  phoneTel: '+919380616278', // used for click-to-call (no spaces)
-  whatsappNumber: '919380616278', // used for WhatsApp (country code, no +)
+  phoneDisplay: '+91 99038 16866',
+  phoneTel: '+919903816866', // used for click-to-call (no spaces)
+  whatsappNumber: '919903816866', // used for WhatsApp (country code, no +)
   whatsappMessage:
     "Hello! I found your website and I'm interested in custom diaries. Could you please share details?",
   email: 'hello@indiadiarie.com',
